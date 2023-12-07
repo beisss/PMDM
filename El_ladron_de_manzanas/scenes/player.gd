@@ -10,11 +10,12 @@ var direccion = 0.0
 var jump = 500
 const gravity = 500
 
-#func _ready():
-#	Global.player = self
+func _ready():
+	Global.player = self
+	frutasLabel.text = str(Global.frutas, " / 6")
 
 @onready var anim = $AnimatedSprite2D
-@onready var frutasLabel = $PlayerGUI/HBoxContainer/FrutasLabel
+@onready var frutasLabel = $PlayerGUI/HBoxContainer/Label2
 func _physics_process(delta):
 	
 	velocity.y += gravity*delta
@@ -45,5 +46,5 @@ func animaciones():
 	else:
 		anim.play("Jump")
 		
-#func actualizaInterfazFrutas():
-#	frutasLabel.text = str(Global.frutas)
+func actualizaInterfazFrutas():
+	frutasLabel.text = str(Global.frutas, " / 6")
