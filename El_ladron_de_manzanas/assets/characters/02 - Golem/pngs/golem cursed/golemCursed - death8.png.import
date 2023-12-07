@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dvwnpxis17dyy"
-path="res://.godot/imported/golemCursed - death8.png-5501738f09f171123cd37b2ac17922b9.ctex"
+path="res://.godot/imported/golemCursed - death8.png-0170e2438f143698b0c19ca4e8019754.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://characters/02 - Golem/pngs/golem cursed/golemCursed - death8.png"
-dest_files=["res://.godot/imported/golemCursed - death8.png-5501738f09f171123cd37b2ac17922b9.ctex"]
+source_file="res://assets/characters/02 - Golem/pngs/golem cursed/golemCursed - death8.png"
+dest_files=["res://.godot/imported/golemCursed - death8.png-0170e2438f143698b0c19ca4e8019754.ctex"]
 
 [params]
 

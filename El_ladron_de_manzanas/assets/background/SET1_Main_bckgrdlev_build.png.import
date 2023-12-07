@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d346kp5r2kt27"
-path="res://.godot/imported/SET1_Main_bckgrdlev_build.png-7f3ded8d94e14be4bf57300b7c2a36a2.ctex"
+path="res://.godot/imported/SET1_Main_bckgrdlev_build.png-237a9d7fa85c7541c4d3b7b5734c4514.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://background/forest/SET1_Main_bckgrdlev_build.png"
-dest_files=["res://.godot/imported/SET1_Main_bckgrdlev_build.png-7f3ded8d94e14be4bf57300b7c2a36a2.ctex"]
+source_file="res://assets/background/SET1_Main_bckgrdlev_build.png"
+dest_files=["res://.godot/imported/SET1_Main_bckgrdlev_build.png-237a9d7fa85c7541c4d3b7b5734c4514.ctex"]
 
 [params]
 

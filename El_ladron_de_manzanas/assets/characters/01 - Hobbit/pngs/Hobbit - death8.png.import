@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bfoq6i2mbh0pc"
-path="res://.godot/imported/Hobbit - death8.png-369f9eee59015dfd7942c8f12d04e9e3.ctex"
+path="res://.godot/imported/Hobbit - death8.png-de4ee3b02ab4758c31606d97e19071b8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://characters/01 - Hobbit/pngs/Hobbit - death8.png"
-dest_files=["res://.godot/imported/Hobbit - death8.png-369f9eee59015dfd7942c8f12d04e9e3.ctex"]
+source_file="res://assets/characters/01 - Hobbit/pngs/Hobbit - death8.png"
+dest_files=["res://.godot/imported/Hobbit - death8.png-de4ee3b02ab4758c31606d97e19071b8.ctex"]
 
 [params]
 

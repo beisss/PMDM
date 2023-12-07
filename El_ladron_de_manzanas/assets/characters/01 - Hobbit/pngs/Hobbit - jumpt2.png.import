@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dmxiuct8u7uyd"
-path="res://.godot/imported/Hobbit - jumpt2.png-b6963ac2b02ef5e962cd810c0ab384b3.ctex"
+path="res://.godot/imported/Hobbit - jumpt2.png-dc1d88342694f48101804655795a578a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://characters/01 - Hobbit/pngs/Hobbit - jumpt2.png"
-dest_files=["res://.godot/imported/Hobbit - jumpt2.png-b6963ac2b02ef5e962cd810c0ab384b3.ctex"]
+source_file="res://assets/characters/01 - Hobbit/pngs/Hobbit - jumpt2.png"
+dest_files=["res://.godot/imported/Hobbit - jumpt2.png-dc1d88342694f48101804655795a578a.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://u2ns771bvaoy"
-path="res://.godot/imported/Hobbit - attack3.png-7dff1bc2561206972a0f2c9a8b61c431.ctex"
+path="res://.godot/imported/Hobbit - attack3.png-08de0dd2efbd4b1bcb356f3e9b48eca9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://characters/01 - Hobbit/pngs/Hobbit - attack3.png"
-dest_files=["res://.godot/imported/Hobbit - attack3.png-7dff1bc2561206972a0f2c9a8b61c431.ctex"]
+source_file="res://assets/characters/01 - Hobbit/pngs/Hobbit - attack3.png"
+dest_files=["res://.godot/imported/Hobbit - attack3.png-08de0dd2efbd4b1bcb356f3e9b48eca9.ctex"]
 
 [params]
 

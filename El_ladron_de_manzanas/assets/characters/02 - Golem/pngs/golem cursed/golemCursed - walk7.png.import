@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://7hy2nxy43i6p"
-path="res://.godot/imported/golemCursed - walk7.png-cf6c356cccab3a4b6c5e6a5ece3d5406.ctex"
+path="res://.godot/imported/golemCursed - walk7.png-df674d613331bb09292594927063b8d5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://characters/02 - Golem/pngs/golem cursed/golemCursed - walk7.png"
-dest_files=["res://.godot/imported/golemCursed - walk7.png-cf6c356cccab3a4b6c5e6a5ece3d5406.ctex"]
+source_file="res://assets/characters/02 - Golem/pngs/golem cursed/golemCursed - walk7.png"
+dest_files=["res://.godot/imported/golemCursed - walk7.png-df674d613331bb09292594927063b8d5.ctex"]
 
 [params]
 

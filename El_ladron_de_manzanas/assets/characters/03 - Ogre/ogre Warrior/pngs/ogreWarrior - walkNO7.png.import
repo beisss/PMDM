@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b7tuoh6quco0g"
-path="res://.godot/imported/ogreWarrior - walkNO7.png-bc9a46145de091fc6f42a924de416ff7.ctex"
+path="res://.godot/imported/ogreWarrior - walkNO7.png-a364e89248a44300f2d2863b70d21c47.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://characters/03 - Ogre/ogre Warrior/pngs/ogreWarrior - walkNO7.png"
-dest_files=["res://.godot/imported/ogreWarrior - walkNO7.png-bc9a46145de091fc6f42a924de416ff7.ctex"]
+source_file="res://assets/characters/03 - Ogre/ogre Warrior/pngs/ogreWarrior - walkNO7.png"
+dest_files=["res://.godot/imported/ogreWarrior - walkNO7.png-a364e89248a44300f2d2863b70d21c47.ctex"]
 
 [params]
 

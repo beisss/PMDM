@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b4q4ykc7t0dab"
-path="res://.godot/imported/golemSteel - death13.png-eaaabf48c87d997a77eacbb418569360.ctex"
+path="res://.godot/imported/golemSteel - death13.png-b7e21bdf0539f7886943a46969510b9e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://characters/02 - Golem/pngs/golem steel/golemSteel - death13.png"
-dest_files=["res://.godot/imported/golemSteel - death13.png-eaaabf48c87d997a77eacbb418569360.ctex"]
+source_file="res://assets/characters/02 - Golem/pngs/golem steel/golemSteel - death13.png"
+dest_files=["res://.godot/imported/golemSteel - death13.png-b7e21bdf0539f7886943a46969510b9e.ctex"]
 
 [params]
 

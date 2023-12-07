@@ -1,0 +1,229 @@
+[gd_scene load_steps=49 format=3 uid="uid://bmtiyokk41sjo"]
+
+[ext_resource type="Texture2D" uid="uid://bkkg4itb7mlig" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - attack1.png" id="1_a2rco"]
+[ext_resource type="Script" path="res://scenes/player.gd" id="1_hdl07"]
+[ext_resource type="Texture2D" uid="uid://c2mwgi6i6lo7e" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - attack2.png" id="2_oxoov"]
+[ext_resource type="Texture2D" uid="uid://u2ns771bvaoy" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - attack3.png" id="3_nthnt"]
+[ext_resource type="Texture2D" uid="uid://dvj3l1mb8yvg1" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - attack4.png" id="4_83js5"]
+[ext_resource type="Texture2D" uid="uid://bsgnpvbidgx6p" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - attack5.png" id="5_v0nw1"]
+[ext_resource type="Texture2D" uid="uid://ds8hv7fkopcue" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - attack6.png" id="6_fw748"]
+[ext_resource type="Texture2D" uid="uid://lrj8ct2tef3c" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - attack7.png" id="7_p7t7o"]
+[ext_resource type="Texture2D" uid="uid://6le3plcb1cjh" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - attack8.png" id="8_d4yvl"]
+[ext_resource type="Texture2D" uid="uid://cufn3mtf2hawx" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - attack9.png" id="9_sn5hi"]
+[ext_resource type="Texture2D" uid="uid://c16x6w4ah31g2" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - attack10.png" id="10_h476d"]
+[ext_resource type="Texture2D" uid="uid://d0akyr37784l6" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - attack11.png" id="11_5kjeh"]
+[ext_resource type="Texture2D" uid="uid://cooviph171tho" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - attack12.png" id="12_b4g2s"]
+[ext_resource type="Texture2D" uid="uid://ble47rs77wm7w" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - attack13.png" id="13_b07uw"]
+[ext_resource type="Texture2D" uid="uid://dfvsodd8ueynd" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - attack14.png" id="14_ewnxm"]
+[ext_resource type="Texture2D" uid="uid://bf5gvbduam6d4" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - attack15.png" id="15_h0cd8"]
+[ext_resource type="Texture2D" uid="uid://bd5ogwt0rdpo8" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - attack16.png" id="16_sb6uk"]
+[ext_resource type="Texture2D" uid="uid://qx3xoxiek23p" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - attack17.png" id="17_w8kyv"]
+[ext_resource type="Texture2D" uid="uid://dk2lr32uqv3b7" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - hit1.png" id="18_f01ao"]
+[ext_resource type="Texture2D" uid="uid://b2ihu1qdj560a" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - hit2.png" id="19_hap7n"]
+[ext_resource type="Texture2D" uid="uid://d0c5ga7ksy1g1" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - hit3.png" id="20_7b6hu"]
+[ext_resource type="Texture2D" uid="uid://s3imddka7e54" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - hit4.png" id="21_fvlda"]
+[ext_resource type="Texture2D" uid="uid://5bmlucg3n7xc" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - Idle1.png" id="22_kahe4"]
+[ext_resource type="Texture2D" uid="uid://0dw4jml7d83d" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - Idle2.png" id="23_2mdl1"]
+[ext_resource type="Texture2D" uid="uid://y7cgdkelbdg3" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - Idle3.png" id="24_wxola"]
+[ext_resource type="Texture2D" uid="uid://chr5u8fxwjpk4" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - Idle4.png" id="25_hmxqu"]
+[ext_resource type="Texture2D" uid="uid://bmtdoabv4jwh" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - jumpt1.png" id="26_duu6j"]
+[ext_resource type="Texture2D" uid="uid://dmxiuct8u7uyd" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - jumpt2.png" id="27_sabxv"]
+[ext_resource type="Texture2D" uid="uid://usiy2fuk7stb" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - jumpt3.png" id="28_dk3o8"]
+[ext_resource type="Texture2D" uid="uid://bkrp4w0uor2g4" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - jumpt4.png" id="29_mxh85"]
+[ext_resource type="Texture2D" uid="uid://cf0ae24r2vnxe" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - jumpt5.png" id="30_qtmes"]
+[ext_resource type="Texture2D" uid="uid://bx8fuhxbdwume" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - jumpt6.png" id="31_m3hrw"]
+[ext_resource type="Texture2D" uid="uid://cehqpahtw1ylg" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - jumpt7.png" id="32_y2asq"]
+[ext_resource type="Texture2D" uid="uid://cqaxtre4fgctw" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - jumpt8.png" id="33_oybfe"]
+[ext_resource type="Texture2D" uid="uid://b4533f6yuiyok" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - jumpt9.png" id="34_24vyv"]
+[ext_resource type="Texture2D" uid="uid://b0gcbd2d7344" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - jumpt10.png" id="35_aht7c"]
+[ext_resource type="Texture2D" uid="uid://cci5don624jer" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - run1.png" id="36_rief7"]
+[ext_resource type="Texture2D" uid="uid://cs861edfhpf0u" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - run2.png" id="37_a6lex"]
+[ext_resource type="Texture2D" uid="uid://cs3b8yhtidhpw" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - run3.png" id="38_8ls0e"]
+[ext_resource type="Texture2D" uid="uid://dkjb8kdhptnqk" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - run4.png" id="39_624ae"]
+[ext_resource type="Texture2D" uid="uid://cf1f74kgulqd7" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - run5.png" id="40_1bmgb"]
+[ext_resource type="Texture2D" uid="uid://fkw6vahku2kx" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - run6.png" id="41_tgixk"]
+[ext_resource type="Texture2D" uid="uid://db8kswcbf5cx3" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - run7.png" id="42_crab1"]
+[ext_resource type="Texture2D" uid="uid://bk1hhftqvwp2c" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - run8.png" id="43_1r8xh"]
+[ext_resource type="Texture2D" uid="uid://doio4ahunqder" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - run9.png" id="44_gdtio"]
+[ext_resource type="Texture2D" uid="uid://cuqlgppui1fod" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - run10.png" id="45_6q3pk"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_2e7lc"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_a2rco")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_oxoov")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_nthnt")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_83js5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_v0nw1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_fw748")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_p7t7o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_d4yvl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_sn5hi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_h476d")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_5kjeh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_b4g2s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_b07uw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_ewnxm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_h0cd8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_sb6uk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_w8kyv")
+}],
+"loop": true,
+"name": &"attack",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("18_f01ao")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_hap7n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_7b6hu")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_fvlda")
+}],
+"loop": true,
+"name": &"hit",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("22_kahe4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_2mdl1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("24_wxola")
+}, {
+"duration": 1.0,
+"texture": ExtResource("25_hmxqu")
+}],
+"loop": true,
+"name": &"iddle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("26_duu6j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("27_sabxv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("28_dk3o8")
+}, {
+"duration": 1.0,
+"texture": ExtResource("29_mxh85")
+}, {
+"duration": 1.0,
+"texture": ExtResource("30_qtmes")
+}, {
+"duration": 1.0,
+"texture": ExtResource("31_m3hrw")
+}, {
+"duration": 1.0,
+"texture": ExtResource("32_y2asq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("33_oybfe")
+}, {
+"duration": 1.0,
+"texture": ExtResource("34_24vyv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("35_aht7c")
+}],
+"loop": true,
+"name": &"jump",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("36_rief7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("37_a6lex")
+}, {
+"duration": 1.0,
+"texture": ExtResource("38_8ls0e")
+}, {
+"duration": 1.0,
+"texture": ExtResource("39_624ae")
+}, {
+"duration": 1.0,
+"texture": ExtResource("40_1bmgb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("41_tgixk")
+}, {
+"duration": 1.0,
+"texture": ExtResource("42_crab1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("43_1r8xh")
+}, {
+"duration": 1.0,
+"texture": ExtResource("44_gdtio")
+}, {
+"duration": 1.0,
+"texture": ExtResource("45_6q3pk")
+}],
+"loop": true,
+"name": &"run",
+"speed": 5.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_8y1cd"]
+radius = 5.0
+height = 16.0
+
+[node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_hdl07")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_2e7lc")
+animation = &"iddle"
+frame_progress = 0.23916
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, -1)
+shape = SubResource("CapsuleShape2D_8y1cd")
+
+[node name="Camera2D" type="Camera2D" parent="."]

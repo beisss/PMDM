@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bb0g3d1i2ouus"
-path="res://.godot/imported/ogreWarrior - death9.png-91c99d278a7dab5f67d97d596f7ac4db.ctex"
+path="res://.godot/imported/ogreWarrior - death9.png-486023363b3ac70adf700f9db6ff2286.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://characters/03 - Ogre/ogre Warrior/pngs/ogreWarrior - death9.png"
-dest_files=["res://.godot/imported/ogreWarrior - death9.png-91c99d278a7dab5f67d97d596f7ac4db.ctex"]
+source_file="res://assets/characters/03 - Ogre/ogre Warrior/pngs/ogreWarrior - death9.png"
+dest_files=["res://.godot/imported/ogreWarrior - death9.png-486023363b3ac70adf700f9db6ff2286.ctex"]
 
 [params]
 

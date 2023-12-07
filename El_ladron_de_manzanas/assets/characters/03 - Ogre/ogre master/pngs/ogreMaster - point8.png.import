@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dwa5cap754cif"
-path="res://.godot/imported/ogreMaster - point8.png-318012b2e81056cec85852381a51a2c4.ctex"
+path="res://.godot/imported/ogreMaster - point8.png-df6f5d856aa2457fa63e0095afbee033.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://characters/03 - Ogre/ogre master/pngs/ogreMaster - point8.png"
-dest_files=["res://.godot/imported/ogreMaster - point8.png-318012b2e81056cec85852381a51a2c4.ctex"]
+source_file="res://assets/characters/03 - Ogre/ogre master/pngs/ogreMaster - point8.png"
+dest_files=["res://.godot/imported/ogreMaster - point8.png-df6f5d856aa2457fa63e0095afbee033.ctex"]
 
 [params]
 

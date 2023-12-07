@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://5bmlucg3n7xc"
-path="res://.godot/imported/Hobbit - Idle1.png-a84fdb95451fc96d9830517f0d0e8f00.ctex"
+path="res://.godot/imported/Hobbit - Idle1.png-bec673cd8959e5a3f8fdb3341d8eb142.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://characters/01 - Hobbit/pngs/Hobbit - Idle1.png"
-dest_files=["res://.godot/imported/Hobbit - Idle1.png-a84fdb95451fc96d9830517f0d0e8f00.ctex"]
+source_file="res://assets/characters/01 - Hobbit/pngs/Hobbit - Idle1.png"
+dest_files=["res://.godot/imported/Hobbit - Idle1.png-bec673cd8959e5a3f8fdb3341d8eb142.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cjpmijyw58ry1"
-path="res://.godot/imported/ogreMaster - look3.png-c6769ee0d228e7c0fdafdd9e474e5de5.ctex"
+path="res://.godot/imported/ogreMaster - look3.png-8ce023eceb0b822c3565620604f9cc29.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://characters/03 - Ogre/ogre master/pngs/ogreMaster - look3.png"
-dest_files=["res://.godot/imported/ogreMaster - look3.png-c6769ee0d228e7c0fdafdd9e474e5de5.ctex"]
+source_file="res://assets/characters/03 - Ogre/ogre master/pngs/ogreMaster - look3.png"
+dest_files=["res://.godot/imported/ogreMaster - look3.png-8ce023eceb0b822c3565620604f9cc29.ctex"]
 
 [params]
 

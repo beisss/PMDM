@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b753018b5vsr1"
-path="res://.godot/imported/golemNoSwrd - hit2.png-879a0eb5b52c8d52750a36aac206ac2e.ctex"
+path="res://.godot/imported/golemNoSwrd - hit2.png-98bdf129cfa212274394038afd1fb60d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://characters/02 - Golem/pngs/golem no sword/golemNoSwrd - hit2.png"
-dest_files=["res://.godot/imported/golemNoSwrd - hit2.png-879a0eb5b52c8d52750a36aac206ac2e.ctex"]
+source_file="res://assets/characters/02 - Golem/pngs/golem no sword/golemNoSwrd - hit2.png"
+dest_files=["res://.godot/imported/golemNoSwrd - hit2.png-98bdf129cfa212274394038afd1fb60d.ctex"]
 
 [params]
 
