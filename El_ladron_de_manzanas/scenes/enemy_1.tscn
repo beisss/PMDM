@@ -1,0 +1,132 @@
+[gd_scene load_steps=27 format=3 uid="uid://dcxgiy8fapqb3"]
+
+[ext_resource type="Script" path="res://scenes/enemy_1.gd" id="1_c4ijy"]
+[ext_resource type="Texture2D" uid="uid://dbumofr8hkwrv" path="res://assets/characters/03 - Ogre/ogre master/pngs/ogreMaster - Idle1.png" id="1_t7rft"]
+[ext_resource type="Texture2D" uid="uid://gd3hdf32i4va" path="res://assets/characters/03 - Ogre/ogre master/pngs/ogreMaster - Idle2.png" id="2_pkwu4"]
+[ext_resource type="Texture2D" uid="uid://gvn0mqbakdso" path="res://assets/characters/03 - Ogre/ogre master/pngs/ogreMaster - Idle3.png" id="3_lov5j"]
+[ext_resource type="Texture2D" uid="uid://doscn4a237bxw" path="res://assets/characters/03 - Ogre/ogre master/pngs/ogreMaster - Idle4.png" id="4_i3c4w"]
+[ext_resource type="Texture2D" uid="uid://b2kvpvhf3pjjn" path="res://assets/characters/03 - Ogre/ogre master/pngs/ogreMaster - Idle5.png" id="5_07olo"]
+[ext_resource type="Texture2D" uid="uid://bje1fs2htv0hf" path="res://assets/characters/03 - Ogre/ogre master/pngs/ogreMaster - look1.png" id="6_eilf7"]
+[ext_resource type="Texture2D" uid="uid://d2hv034hx1a7c" path="res://assets/characters/03 - Ogre/ogre master/pngs/ogreMaster - look2.png" id="7_ubddq"]
+[ext_resource type="Texture2D" uid="uid://cjpmijyw58ry1" path="res://assets/characters/03 - Ogre/ogre master/pngs/ogreMaster - look3.png" id="8_u45vv"]
+[ext_resource type="Texture2D" uid="uid://k0jtvse375ad" path="res://assets/characters/03 - Ogre/ogre master/pngs/ogreMaster - look4.png" id="9_wn0o6"]
+[ext_resource type="Texture2D" uid="uid://yoea5vc34vpd" path="res://assets/characters/03 - Ogre/ogre master/pngs/ogreMaster - look5.png" id="10_a0t2q"]
+[ext_resource type="Texture2D" uid="uid://bj0usu3qrh162" path="res://assets/characters/03 - Ogre/ogre master/pngs/ogreMaster - look6.png" id="11_pbfw3"]
+[ext_resource type="Texture2D" uid="uid://cw5chkqw64gbl" path="res://assets/characters/03 - Ogre/ogre master/pngs/ogreMaster - look7.png" id="12_hu2b4"]
+[ext_resource type="Texture2D" uid="uid://3bs7wl1nx3mo" path="res://assets/characters/03 - Ogre/ogre master/pngs/ogreMaster - look8.png" id="13_81l2s"]
+[ext_resource type="Texture2D" uid="uid://c88jmvu10pgt4" path="res://assets/characters/03 - Ogre/ogre master/pngs/ogreMaster - look9.png" id="14_0r52f"]
+[ext_resource type="Texture2D" uid="uid://c3bufwls0lts7" path="res://assets/characters/03 - Ogre/ogre master/pngs/ogreMaster - look10.png" id="15_3vs1c"]
+[ext_resource type="Texture2D" uid="uid://36l3nhu80b4" path="res://assets/characters/03 - Ogre/ogre master/pngs/ogreMaster - walk1.png" id="16_drrny"]
+[ext_resource type="Texture2D" uid="uid://svq7qn7vkyp7" path="res://assets/characters/03 - Ogre/ogre master/pngs/ogreMaster - walk2.png" id="17_va3nm"]
+[ext_resource type="Texture2D" uid="uid://1bwsqbc321xv" path="res://assets/characters/03 - Ogre/ogre master/pngs/ogreMaster - walk3.png" id="18_bpgee"]
+[ext_resource type="Texture2D" uid="uid://cbqfmnnyqdiwu" path="res://assets/characters/03 - Ogre/ogre master/pngs/ogreMaster - walk4.png" id="19_coadj"]
+[ext_resource type="Texture2D" uid="uid://bgyg7lygexd5u" path="res://assets/characters/03 - Ogre/ogre master/pngs/ogreMaster - walk5.png" id="20_glut0"]
+[ext_resource type="Texture2D" uid="uid://ky7omy58a7b2" path="res://assets/characters/03 - Ogre/ogre master/pngs/ogreMaster - walk6.png" id="21_p7j7c"]
+[ext_resource type="Texture2D" uid="uid://18w0vj5n0l3y" path="res://assets/characters/03 - Ogre/ogre master/pngs/ogreMaster - walk7.png" id="22_7aa12"]
+[ext_resource type="Texture2D" uid="uid://jdorgob4luxl" path="res://assets/characters/03 - Ogre/ogre master/pngs/ogreMaster - walk8.png" id="23_hs41f"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_s5lvy"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_t7rft")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_pkwu4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_lov5j")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_i3c4w")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_07olo")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_eilf7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_ubddq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_u45vv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_wn0o6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_a0t2q")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_pbfw3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_hu2b4")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_81l2s")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_0r52f")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_3vs1c")
+}],
+"loop": true,
+"name": &"look",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("16_drrny")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_va3nm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_bpgee")
+}, {
+"duration": 1.0,
+"texture": ExtResource("19_coadj")
+}, {
+"duration": 1.0,
+"texture": ExtResource("20_glut0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("21_p7j7c")
+}, {
+"duration": 1.0,
+"texture": ExtResource("22_7aa12")
+}, {
+"duration": 1.0,
+"texture": ExtResource("23_hs41f")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 5.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_kh3ub"]
+radius = 7.0
+height = 18.0
+
+[node name="enemy1" type="CharacterBody2D"]
+script = ExtResource("1_c4ijy")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_s5lvy")
+animation = &"look"
+frame_progress = 0.631873
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_kh3ub")
+
+[node name="RayCast2D" type="RayCast2D" parent="."]
+
+[node name="RayCast2D2" type="RayCast2D" parent="."]
