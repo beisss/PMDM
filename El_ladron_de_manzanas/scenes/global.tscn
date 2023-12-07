@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://dkl7eofn6gg6h"]
+
+[ext_resource type="AudioStream" uid="uid://di2p4xwb1340l" path="res://assets/Sounds/confirmation_002.ogg" id="1_3bwai"]
+[ext_resource type="Script" path="res://scenes/global.gd" id="1_4jpyf"]
+
+[node name="Global" type="Node"]
+script = ExtResource("1_4jpyf")
+
+[node name="sonido_manzana" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("1_3bwai")
