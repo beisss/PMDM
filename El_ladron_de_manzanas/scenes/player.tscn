@@ -1,4 +1,4 @@
-[gd_scene load_steps=45 format=3 uid="uid://bmtiyokk41sjo"]
+[gd_scene load_steps=46 format=3 uid="uid://bmtiyokk41sjo"]
 
 [ext_resource type="Texture2D" uid="uid://bkkg4itb7mlig" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - attack1.png" id="1_a2rco"]
 [ext_resource type="Script" path="res://scenes/player.gd" id="1_hdl07"]
@@ -36,6 +36,7 @@
 [ext_resource type="Texture2D" uid="uid://dkjb8kdhptnqk" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - run4.png" id="39_624ae"]
 [ext_resource type="Texture2D" uid="uid://cf1f74kgulqd7" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - run5.png" id="40_1bmgb"]
 [ext_resource type="Texture2D" uid="uid://fkw6vahku2kx" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - run6.png" id="41_tgixk"]
+[ext_resource type="AudioStream" uid="uid://ba2hxqf376lg" path="res://assets/Sounds/Jump.ogg" id="42_0km0d"]
 [ext_resource type="Texture2D" uid="uid://db8kswcbf5cx3" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - run7.png" id="42_crab1"]
 [ext_resource type="Texture2D" uid="uid://bk1hhftqvwp2c" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - run8.png" id="43_1r8xh"]
 [ext_resource type="Texture2D" uid="uid://doio4ahunqder" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - run9.png" id="44_gdtio"]
@@ -211,7 +212,7 @@ position = Vector2(0.5, -1.5)
 shape = SubResource("RectangleShape2D_nb31g")
 
 [node name="Camera2D" type="Camera2D" parent="."]
-zoom = Vector2(1.5, 1.5)
+zoom = Vector2(2, 2)
 limit_left = 0
 limit_top = 0
 limit_right = 640
@@ -233,3 +234,7 @@ offset_bottom = 40.0
 [node name="Label2" type="Label" parent="PlayerGUI/HBoxContainer"]
 layout_mode = 2
 label_settings = SubResource("LabelSettings_5hkrs")
+
+[node name="jumpSound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("42_0km0d")
+volume_db = -15.413

@@ -1,0 +1,107 @@
+[gd_scene load_steps=21 format=3 uid="uid://bvahfspn4ue1v"]
+
+[ext_resource type="Script" path="res://scenes/enemy_2.gd" id="1_62uy1"]
+[ext_resource type="Texture2D" uid="uid://dnb3m0yrtq0dg" path="res://assets/characters/03 - Ogre/ogre Warrior/pngs/ogreWarrior - Idle1.png" id="2_xnsxl"]
+[ext_resource type="Texture2D" uid="uid://lbr1xv1olhoq" path="res://assets/characters/03 - Ogre/ogre Warrior/pngs/ogreWarrior - Idle2.png" id="3_1cvf2"]
+[ext_resource type="Texture2D" uid="uid://5iy8fbkvn1xg" path="res://assets/characters/03 - Ogre/ogre Warrior/pngs/ogreWarrior - Idle3.png" id="4_jfhkd"]
+[ext_resource type="Texture2D" uid="uid://b4hosr2rh3tv7" path="res://assets/characters/03 - Ogre/ogre Warrior/pngs/ogreWarrior - Idle4.png" id="5_js3vr"]
+[ext_resource type="Texture2D" uid="uid://cv4xu6cj6o6d2" path="res://assets/characters/03 - Ogre/ogre Warrior/pngs/ogreWarrior - Idle5.png" id="6_adxt3"]
+[ext_resource type="Texture2D" uid="uid://dsbh7eh35xmbx" path="res://assets/characters/03 - Ogre/ogre Warrior/pngs/ogreWarrior - Idle6.png" id="7_7pr21"]
+[ext_resource type="Texture2D" uid="uid://c2kb1gr4hbawr" path="res://assets/characters/03 - Ogre/ogre Warrior/pngs/ogreWarrior - walk1.png" id="8_ngmux"]
+[ext_resource type="Texture2D" uid="uid://bwosxa762xwr1" path="res://assets/characters/03 - Ogre/ogre Warrior/pngs/ogreWarrior - walk2.png" id="9_gcbkg"]
+[ext_resource type="Texture2D" uid="uid://bymanahokd5k5" path="res://assets/characters/03 - Ogre/ogre Warrior/pngs/ogreWarrior - walk3.png" id="10_mj5vi"]
+[ext_resource type="Texture2D" uid="uid://dhbpfycvi6j70" path="res://assets/characters/03 - Ogre/ogre Warrior/pngs/ogreWarrior - walk4.png" id="11_mnfmq"]
+[ext_resource type="Texture2D" uid="uid://cjcfujfcfbfg0" path="res://assets/characters/03 - Ogre/ogre Warrior/pngs/ogreWarrior - walk5.png" id="12_oita6"]
+[ext_resource type="Texture2D" uid="uid://b078h07xdq22r" path="res://assets/characters/03 - Ogre/ogre Warrior/pngs/ogreWarrior - walk6.png" id="13_rigtp"]
+[ext_resource type="Texture2D" uid="uid://dusq0av3xjtgi" path="res://assets/characters/03 - Ogre/ogre Warrior/pngs/ogreWarrior - walk7.png" id="14_o6rmb"]
+[ext_resource type="Texture2D" uid="uid://c31mwsilcx8fq" path="res://assets/characters/03 - Ogre/ogre Warrior/pngs/ogreWarrior - walk8.png" id="15_4anpm"]
+[ext_resource type="Texture2D" uid="uid://0lvtfjf4k5ox" path="res://assets/characters/03 - Ogre/ogre Warrior/pngs/ogreWarrior - walk9.png" id="16_r0mp5"]
+[ext_resource type="Texture2D" uid="uid://di8v5mi4xj3cq" path="res://assets/characters/03 - Ogre/ogre Warrior/pngs/ogreWarrior - walk10.png" id="17_20nim"]
+[ext_resource type="Texture2D" uid="uid://b1fepsa4vpmqv" path="res://assets/characters/03 - Ogre/ogre Warrior/pngs/ogreWarrior - walk11.png" id="18_tk4ur"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_s5lvy"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_xnsxl")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_1cvf2")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_jfhkd")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_js3vr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_adxt3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_7pr21")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("8_ngmux")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_gcbkg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_mj5vi")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_mnfmq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_oita6")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_rigtp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("14_o6rmb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_4anpm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_r0mp5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_20nim")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_tk4ur")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3r2ks"]
+size = Vector2(20, 21)
+
+[node name="enemy2" type="CharacterBody2D"]
+script = ExtResource("1_62uy1")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_s5lvy")
+animation = &"idle"
+frame_progress = 0.613751
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1, -1.5)
+shape = SubResource("RectangleShape2D_3r2ks")
+
+[node name="RayCast2D" type="RayCast2D" parent="."]
+position = Vector2(13, 0)
+target_position = Vector2(0, 14)
+
+[node name="RayCast2D2" type="RayCast2D" parent="."]
+position = Vector2(13, 0)
+target_position = Vector2(3, 0)

@@ -1,6 +1,6 @@
 extends CharacterBody2D
 
-var speed = 60.0
+var speed = 15.0
 const gravity = 500
 var facing_right = true
 

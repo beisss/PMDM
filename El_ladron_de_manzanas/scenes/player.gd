@@ -41,6 +41,7 @@ func _physics_process(delta):
 	if Input.is_action_just_pressed("up") and rightToJump():
 		velocity.y = -jump
 		anim.play("Jump")
+		$jumpSound.play()
 		countJumps +=1
 	
 	move_and_slide()

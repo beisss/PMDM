@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://dkl7eofn6gg6h"]
+[gd_scene load_steps=4 format=3 uid="uid://dkl7eofn6gg6h"]
 
 [ext_resource type="AudioStream" uid="uid://di2p4xwb1340l" path="res://assets/Sounds/confirmation_002.ogg" id="1_3bwai"]
 [ext_resource type="Script" path="res://scenes/global.gd" id="1_4jpyf"]
+[ext_resource type="AudioStream" uid="uid://doij1u0uaksav" path="res://assets/Sounds/bgSound.mp3" id="3_v8dok"]
 
 [node name="Global" type="Node"]
 script = ExtResource("1_4jpyf")
@@ -9,3 +10,8 @@ script = ExtResource("1_4jpyf")
 [node name="sonido_manzana" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("1_3bwai")
 volume_db = -17.845
+
+[node name="sonido_fondo" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_v8dok")
+volume_db = -42.504
+autoplay = true
