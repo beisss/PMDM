@@ -1,5 +1,7 @@
 extends Node
 
+var worldCount: int = 0
+
 var frutas = 0:
 	set(val):
 		frutas = val

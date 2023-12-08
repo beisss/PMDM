@@ -112,9 +112,8 @@ animations = [{
 "speed": 5.0
 }]
 
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_kh3ub"]
-radius = 7.0
-height = 18.0
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_3r2ks"]
+size = Vector2(10, 21)
 
 [node name="enemy1" type="CharacterBody2D"]
 script = ExtResource("1_c4ijy")
@@ -125,7 +124,8 @@ animation = &"look"
 frame_progress = 0.631873
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-shape = SubResource("CapsuleShape2D_kh3ub")
+position = Vector2(0, -1.5)
+shape = SubResource("RectangleShape2D_3r2ks")
 
 [node name="RayCast2D" type="RayCast2D" parent="."]
 position = Vector2(7, 0)

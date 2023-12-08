@@ -1,4 +1,4 @@
-[gd_scene load_steps=51 format=3 uid="uid://bmtiyokk41sjo"]
+[gd_scene load_steps=45 format=3 uid="uid://bmtiyokk41sjo"]
 
 [ext_resource type="Texture2D" uid="uid://bkkg4itb7mlig" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - attack1.png" id="1_a2rco"]
 [ext_resource type="Script" path="res://scenes/player.gd" id="1_hdl07"]
@@ -30,12 +30,6 @@
 [ext_resource type="Texture2D" uid="uid://dmxiuct8u7uyd" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - jumpt2.png" id="27_sabxv"]
 [ext_resource type="Texture2D" uid="uid://usiy2fuk7stb" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - jumpt3.png" id="28_dk3o8"]
 [ext_resource type="Texture2D" uid="uid://bkrp4w0uor2g4" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - jumpt4.png" id="29_mxh85"]
-[ext_resource type="Texture2D" uid="uid://cf0ae24r2vnxe" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - jumpt5.png" id="30_qtmes"]
-[ext_resource type="Texture2D" uid="uid://bx8fuhxbdwume" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - jumpt6.png" id="31_m3hrw"]
-[ext_resource type="Texture2D" uid="uid://cehqpahtw1ylg" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - jumpt7.png" id="32_y2asq"]
-[ext_resource type="Texture2D" uid="uid://cqaxtre4fgctw" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - jumpt8.png" id="33_oybfe"]
-[ext_resource type="Texture2D" uid="uid://b4533f6yuiyok" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - jumpt9.png" id="34_24vyv"]
-[ext_resource type="Texture2D" uid="uid://b0gcbd2d7344" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - jumpt10.png" id="35_aht7c"]
 [ext_resource type="Texture2D" uid="uid://cci5don624jer" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - run1.png" id="36_rief7"]
 [ext_resource type="Texture2D" uid="uid://cs861edfhpf0u" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - run2.png" id="37_a6lex"]
 [ext_resource type="Texture2D" uid="uid://cs3b8yhtidhpw" path="res://assets/characters/01 - Hobbit/pngs/Hobbit - run3.png" id="38_8ls0e"]
@@ -154,24 +148,9 @@ animations = [{
 "texture": ExtResource("29_mxh85")
 }, {
 "duration": 1.0,
-"texture": ExtResource("30_qtmes")
-}, {
-"duration": 1.0,
-"texture": ExtResource("31_m3hrw")
-}, {
-"duration": 1.0,
-"texture": ExtResource("32_y2asq")
-}, {
-"duration": 1.0,
-"texture": ExtResource("33_oybfe")
-}, {
-"duration": 1.0,
-"texture": ExtResource("34_24vyv")
-}, {
-"duration": 1.0,
-"texture": ExtResource("35_aht7c")
+"texture": ExtResource("29_mxh85")
 }],
-"loop": true,
+"loop": false,
 "name": &"Jump",
 "speed": 5.0
 }, {
@@ -211,25 +190,25 @@ animations = [{
 "speed": 5.0
 }]
 
-[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_8y1cd"]
-radius = 5.0
-height = 16.0
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_nb31g"]
+size = Vector2(11, 17)
 
 [sub_resource type="LabelSettings" id="LabelSettings_5hkrs"]
 font_size = 13
 outline_size = 6
 outline_color = Color(0, 0, 0, 1)
 
-[node name="Player" type="CharacterBody2D"]
+[node name="Player" type="CharacterBody2D" groups=["Player"]]
 script = ExtResource("1_hdl07")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_2e7lc")
-animation = &"Run"
+animation = &"Hit"
+frame_progress = 0.950477
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, -1)
-shape = SubResource("CapsuleShape2D_8y1cd")
+position = Vector2(0.5, -1.5)
+shape = SubResource("RectangleShape2D_nb31g")
 
 [node name="Camera2D" type="Camera2D" parent="."]
 zoom = Vector2(1.5, 1.5)
